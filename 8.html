@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html lang="ko" data-theme="light" style=""><head>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700;900&amp;family=Playfair+Display:ital,wght@0,700;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+<style>
+    body { margin: 0; padding: 0; overflow: hidden; background-color: #FFF8E7; }
+</style>
+</head>
+<body style="user-select: none;">
+<div class="slide-container" style="position: relative; width: 1280px; height: 720px; overflow: hidden; background-color: #FFF8E7; font-family: 'Noto Sans KR', sans-serif;">
+<!-- Decorative Background Image Top Left -->
+<div data-object="true" data-object-type="image" style="position: absolute; left: -50px; top: -50px; width: 300px; height: 300px; z-index: 1; opacity: 0.1; transform: rotate(15deg);" id="fabric-obj-0-1775719599701">
+<img alt="Golden Petal Decoration" src="https://page.gensparksite.com/slides_images/dae8bd8100a126aa9ba19372eb93b072.webp" style="width: 100%; height: 100%; object-fit: cover; border-radius: 150px;" data-height-listener-added="true">
+</div>
+<!-- Decorative Background Image Bottom Right -->
+<div data-object="true" data-object-type="image" style="position: absolute; left: 1080px; top: 480px; width: 250px; height: 250px; z-index: 1; opacity: 0.1; transform: rotate(-30deg);" id="fabric-obj-1-1775719599701">
+<img alt="Golden Petal Decoration" src="https://page.gensparksite.com/slides_images/dae8bd8100a126aa9ba19372eb93b072.webp" style="width: 100%; height: 100%; object-fit: cover; border-radius: 125px;" data-height-listener-added="true">
+</div>
+<!-- Slide Title -->
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 80px; top: 40px; width: 860px; height: 100px; z-index: 10; transform: none !important;" id="fabric-obj-2-1775719599701">
+<p style="font-family: 'Playfair Display', serif; font-size: 20px; color: #C8952A; margin: 0; font-weight: 700; letter-spacing: 2px;">EXTENSION FEATURE ③</p>
+<p style="font-size: 42px; color: #3E2723; margin: 8px 0 0 0; font-weight: 700;">AI 기획서 심사 (사전심사 + 관리자 심사) <span style="color: #F4D03F;">⭐</span></p>
+</div>
+<!-- Mode 1: User Pre-check (Blue) - Shape -->
+<div data-object="true" data-object-type="shape" style="position: absolute; left: 80px; top: 150px; width: 545px; height: 230px; z-index: 1; background-color: #FFFFFF; border: 2px solid #1E88E5; border-radius: 20px; box-shadow: 0 10px 30px rgba(30,136,229,0.1);" id="fabric-obj-3-1775719599702"></div>
+<!-- Mode 1: User Pre-check (Blue) - Textbox -->
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 100px; top: 170px; width: 505px; height: 190px; z-index: 10;" id="fabric-obj-4-1775719599702">
+<div style="display: flex; align-items: center; background-color: #E3F2FD; border-radius: 12px; padding: 12px 20px; margin-bottom: 12px;">
+<div style="background-color: #1E88E5; color: white; width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 18px; margin-right: 15px;">1</div>
+<div>
+<p style="margin: 0; font-size: 14px; color: #1976D2; font-weight: 700; letter-spacing: 1px;">MODE</p>
+<p style="margin: 0; font-size: 20px; color: #0D47A1; font-weight: 900;">사용자 사전 심사 <span style="font-size: 14px; font-weight: 400; color: #1565C0;">(POST /api/ai/check-plan)</span></p>
+</div>
+</div>
+<ul style="margin: 0; padding-left: 25px; color: #333333; font-size: 14px; line-height: 1.45;">
+<li><strong>MD/DOCX 파일 업로드</strong> → 텍스트 자동 추출 및 파싱</li>
+<li>해커톤 DB에 저장된 평가 기준(필수/보너스)과 비교 분석</li>
+<li>SSE 스트리밍으로 <strong>실시간 피드백</strong> 제공</li>
+<li style="list-style: none; margin-top: 8px;">
+<span style="background: #E8F5E9; padding: 3px 8px; border-radius: 6px; font-size: 13px; font-weight: bold; color: #2E7D32;">✅ 잘된 점</span>
+<span style="background: #FFF8E1; padding: 3px 8px; border-radius: 6px; font-size: 13px; font-weight: bold; color: #F57F17; margin-left: 5px;">⚠️ 보완 필요</span>
+<span style="background: #FFEBEE; padding: 3px 8px; border-radius: 6px; font-size: 13px; font-weight: bold; color: #C62828; margin-left: 5px;">❌ 누락 항목</span>
+</li>
+</ul>
+</div>
+<!-- Mode 2: Admin Review (Red) - Shape -->
+<div data-object="true" data-object-type="shape" style="position: absolute; left: 655px; top: 150px; width: 545px; height: 230px; z-index: 1; background-color: #FFFFFF; border: 2px solid #E53935; border-radius: 20px; box-shadow: 0 10px 30px rgba(229,57,53,0.1);" id="fabric-obj-5-1775719599702"></div>
+<!-- Mode 2: Admin Review (Red) - Textbox -->
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 675px; top: 170px; width: 505px; height: 190px; z-index: 10;" id="fabric-obj-6-1775719599702">
+<div style="display: flex; align-items: center; background-color: #FFEBEE; border-radius: 12px; padding: 12px 20px; margin-bottom: 10px;">
+<div style="background-color: #E53935; color: white; width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 18px; margin-right: 15px;">2</div>
+<div>
+<p style="margin: 0; font-size: 14px; color: #C62828; font-weight: 700; letter-spacing: 1px;">MODE</p>
+<p style="margin: 0; font-size: 20px; color: #B71C1C; font-weight: 900;">관리자 AI 심사 <span style="font-size: 14px; font-weight: 400; color: #C62828;">(POST /admin/review)</span></p>
+</div>
+</div>
+<ul style="margin: 0; padding-left: 25px; color: #333333; font-size: 14px; line-height: 1.4;">
+<li><strong>고정 루브릭 5개 항목 (100점 만점)</strong> 기반 채점
+                <ul style="margin: 3px 0 3px 0; padding-left: 20px; font-size: 12px; color: #555;">
+<li>문제 정의 (20) / 기능 명세 (25) / 기술 스택 (20)</li>
+<li>실행 계획 (20) / 차별성 및 실현 가능성 (15)</li>
+</ul>
+</li>
+<li>심사위원의 일관된 평가를 돕는 AI 보조 지표</li>
+<li><strong>항목별 점수 + 근거 인용 + 총점 + 종합 의견</strong> 도출</li>
+</ul>
+</div>
+<!-- Sandbox Container Shape (Dark Brown) -->
+<div data-object="true" data-object-type="shape" style="position: absolute; left: 80px; top: 410px; width: 1120px; height: 260px; z-index: 1; background-color: #3E2723; border: 2px solid #C8952A; border-radius: 20px; box-shadow: 0 15px 30px rgba(62,39,35,0.2);" id="fabric-obj-7-1775719599702"></div>
+<!-- Sandbox Header Textbox -->
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 110px; top: 430px; width: 1060px; height: 40px; z-index: 10; border-bottom: 1px solid rgba(200,149,42,0.4);" id="fabric-obj-8-1775719599702">
+<div style="display: flex; justify-content: space-between; align-items: center;">
+<p style="margin: 0; font-size: 22px; color: #F4D03F; font-weight: 700;"><i class="fas fa-laptop-code" style="margin-right: 10px;"></i>AI 체험 샌드박스 (AiTestView.vue)</p>
+<span style="background-color: rgba(255,255,255,0.1); color: #FFF8E7; padding: 6px 12px; border-radius: 20px; font-size: 13px; font-weight: 700;">
+<i class="fas fa-unlock-alt" style="margin-right: 6px;"></i>로그인 없이 모드 전환 원클릭 체험
+            </span>
+</div>
+</div>
+<!-- Sandbox Card 1: 하 Shape -->
+<div data-object="true" data-object-type="shape" style="position: absolute; left: 110px; top: 485px; width: 330px; height: 160px; z-index: 1; background-color: #FFFFFF; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" id="fabric-obj-9-1775719599702"></div>
+<!-- Sandbox Card 1: 하 Textbox -->
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 130px; top: 505px; width: 290px; height: 120px; z-index: 10;" id="fabric-obj-10-1775719599702">
+<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8px;">
+<div style="background-color: #ECEFF1; color: #546E7A; font-size: 11px; padding: 4px 10px; border-radius: 6px; font-weight: 700;"><i class="fas fa-file-alt"></i> 내장 예시 1</div>
+<span style="color: #D32F2F; font-size: 16px; font-weight: 900;">하</span>
+</div>
+<p style="margin: 0 0 4px 0; font-size: 16px; font-weight: 700; color: #333333;">기획서_샘플_하.md</p>
+<p style="margin: 0 0 10px 0; font-size: 11px; color: #777777; line-height: 1.35;">문제 정의만 있고 구체적인 구현 방안이나 기술 스택이 누락된 기획서</p>
+<div style="background-color: #FFEBEE; color: #C62828; padding: 5px 6px; border-radius: 6px; font-size: 11px; font-weight: 700; text-align: center;">
+            예상 AI 총점: 15 ~ 30점
+        </div>
+</div>
+<!-- Sandbox Card 2: 중 Shape -->
+<div data-object="true" data-object-type="shape" style="position: absolute; left: 475px; top: 485px; width: 330px; height: 160px; z-index: 1; background-color: #FFFFFF; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" id="fabric-obj-11-1775719599702"></div>
+<!-- Sandbox Card 2: 중 Textbox -->
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 495px; top: 505px; width: 290px; height: 120px; z-index: 10;" id="fabric-obj-12-1775719599702">
+<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8px;">
+<div style="background-color: #E3F2FD; color: #1976D2; font-size: 11px; padding: 4px 10px; border-radius: 6px; font-weight: 700;"><i class="fas fa-file-alt"></i> 내장 예시 2</div>
+<span style="color: #F57F17; font-size: 16px; font-weight: 900;">중</span>
+</div>
+<p style="margin: 0 0 4px 0; font-size: 16px; font-weight: 700; color: #333333;">기획서_샘플_중.md</p>
+<p style="margin: 0 0 10px 0; font-size: 11px; color: #777777; line-height: 1.35;">기본적인 요건은 충족하나, 차별성이 부족하고 아키텍처 설명이 모호함</p>
+<div style="background-color: #FFF8E1; color: #F57F17; padding: 5px 6px; border-radius: 6px; font-size: 11px; font-weight: 700; text-align: center;">
+            예상 AI 총점: 50 ~ 65점
+        </div>
+</div>
+<!-- Sandbox Card 3: 상 Shape -->
+<div data-object="true" data-object-type="shape" style="position: absolute; left: 840px; top: 485px; width: 330px; height: 160px; z-index: 1; background-color: #FFFFFF; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" id="fabric-obj-13-1775719599702"></div>
+<!-- Sandbox Card 3: 상 Textbox -->
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 860px; top: 505px; width: 290px; height: 120px; z-index: 10;" id="fabric-obj-14-1775719599702">
+<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8px;">
+<div style="background-color: #E8F5E9; color: #388E3C; font-size: 11px; padding: 4px 10px; border-radius: 6px; font-weight: 700;"><i class="fas fa-file-alt"></i> 내장 예시 3</div>
+<span style="color: #388E3C; font-size: 16px; font-weight: 900;">상</span>
+</div>
+<p style="margin: 0 0 4px 0; font-size: 16px; font-weight: 700; color: #333333;">기획서_샘플_상.md</p>
+<p style="margin: 0 0 10px 0; font-size: 11px; color: #777777; line-height: 1.35;">명확한 문제정의부터 세부 API 명세, 수익화 방안까지 완벽히 작성됨</p>
+<div style="background-color: #E8F5E9; color: #2E7D32; padding: 5px 6px; border-radius: 6px; font-size: 11px; font-weight: 700; text-align: center;">
+            예상 AI 총점: 82 ~ 92점
+        </div>
+</div>
+</div>
+
+</body></html>

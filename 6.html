@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html lang="ko" data-theme="light" style=""><head>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700;900&amp;family=Playfair+Display:ital,wght@0,700;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+<style>
+    body { margin: 0; padding: 0; overflow: hidden; background-color: #FFF8E7; }
+</style>
+</head>
+<body style="user-select: none;">
+<div class="slide-container" style="position: relative; width: 1280px; height: 720px; overflow: hidden; background-color: #FFF8E7; font-family: 'Noto Sans KR', sans-serif;">
+<!-- Decorative Background Image Top Left -->
+<div data-object="true" data-object-type="image" style="position: absolute; left: -50px; top: -50px; width: 300px; height: 300px; z-index: 1; opacity: 0.1; transform: rotate(15deg);" id="fabric-obj-0-1775719147664">
+<img alt="Golden Petal Decoration" src="https://page.gensparksite.com/slides_images/dae8bd8100a126aa9ba19372eb93b072.webp" style="width: 100%; height: 100%; object-fit: cover; border-radius: 150px;" data-height-listener-added="true">
+</div>
+<!-- Decorative Background Image Bottom Right -->
+<div data-object="true" data-object-type="image" style="position: absolute; left: 1080px; top: 480px; width: 250px; height: 250px; z-index: 1; opacity: 0.1; transform: rotate(-30deg);" id="fabric-obj-1-1775719147665">
+<img alt="Golden Petal Decoration" src="https://page.gensparksite.com/slides_images/dae8bd8100a126aa9ba19372eb93b072.webp" style="width: 100%; height: 100%; object-fit: cover; border-radius: 125px;" data-height-listener-added="true">
+</div>
+<!-- Slide Title -->
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 80px; top: 50px; width: 800px; height: 100px; z-index: 10;" id="fabric-obj-2-1775719147665">
+<p style="font-family: 'Playfair Display', serif; font-size: 20px; color: #C8952A; margin: 0; font-weight: 700; letter-spacing: 2px;">EXTENSION FEATURE ①</p>
+<p style="font-size: 42px; color: #3E2723; margin: 8px 0 0 0; font-weight: 700;">[FAISS - AI] 보유기술 기반 팀 매칭 <span style="color: #F4D03F;">⭐</span></p>
+</div>
+<!-- Left Column (40%): Flowchart Shape -->
+<div data-object="true" data-object-type="shape" style="position: absolute; left: 80px; top: 170px; width: 440px; height: 490px; z-index: 1; background-color: #FFFFFF; border: 2px solid #E0E0E0; border-radius: 20px; box-shadow: 0 10px 30px rgba(62,39,35,0.04);" id="fabric-obj-3-1775719147665"></div>
+<!-- Left Column (40%): Flowchart Content -->
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 100px; top: 190px; width: 400px; height: 450px; z-index: 10;" id="fabric-obj-4-1775719147665">
+<p style="font-size: 20px; font-weight: 700; color: #3E2723; margin: 0 0 20px 0; border-bottom: 2px solid #FFF8E7; padding-bottom: 10px; text-align: center;"><i class="fas fa-project-diagram" style="color: #C9A84C; margin-right: 10px;"></i>AI 매칭 파이프라인</p>
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 370px;">
+<!-- Step 1: User Input -->
+<div style="width: 320px; background: #FFF8E7; border: 2px solid #C9A84C; border-radius: 12px; padding: 15px; text-align: center; box-shadow: 0 4px 10px rgba(201,168,76,0.15);">
+<p style="margin: 0; font-size: 16px; font-weight: 700; color: #3E2723;"><i class="fas fa-keyboard" style="color: #C8952A; margin-right: 8px;"></i>사용자 스킬 입력</p>
+<p style="margin: 5px 0 0 0; font-size: 13px; color: #757575;">"Spring Boot, 백엔드 개발 경험자"</p>
+</div>
+<!-- Arrow -->
+<div style="height: 30px; display: flex; align-items: center;">
+<i class="fas fa-chevron-down" style="color: #C9A84C; font-size: 20px;"></i>
+</div>
+<!-- Step 2: OpenAI Embedding -->
+<div style="width: 320px; background: #212121; border-radius: 12px; padding: 15px; text-align: center; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
+<p style="margin: 0; font-size: 16px; font-weight: 700; color: #FFFFFF;"><i class="fas fa-robot" style="color: #10A37F; margin-right: 8px;"></i>OpenAI Embedding</p>
+<p style="margin: 5px 0 0 0; font-size: 13px; color: #BDBDBD;">text-embedding-3-small (1536dim)</p>
+</div>
+<!-- Arrow -->
+<div style="height: 30px; display: flex; align-items: center;">
+<i class="fas fa-chevron-down" style="color: #C9A84C; font-size: 20px;"></i>
+</div>
+<!-- Step 3: FAISS -->
+<div style="width: 320px; background: #3E2723; border-radius: 12px; padding: 15px; text-align: center; box-shadow: 0 4px 10px rgba(62,39,35,0.2);">
+<p style="margin: 0; font-size: 16px; font-weight: 700; color: #F4D03F;"><i class="fas fa-database" style="color: #F4D03F; margin-right: 8px;"></i>FAISS Vector Search</p>
+<p style="margin: 5px 0 0 0; font-size: 13px; color: #EFEBE9;">IndexFlatIP (코사인 유사도 내적 계산)</p>
+</div>
+<!-- Arrow -->
+<div style="height: 30px; display: flex; align-items: center;">
+<i class="fas fa-chevron-down" style="color: #C9A84C; font-size: 20px;"></i>
+</div>
+<!-- Step 4: Result -->
+<div style="width: 320px; background: #E3F2FD; border: 2px solid #2196F3; border-radius: 12px; padding: 15px; text-align: center; box-shadow: 0 4px 10px rgba(33,150,243,0.15);">
+<p style="margin: 0; font-size: 16px; font-weight: 700; color: #0D47A1;"><i class="fas fa-chart-line" style="color: #1976D2; margin-right: 8px;"></i>매칭 점수 반환 (0~100)</p>
+<p style="margin: 5px 0 0 0; font-size: 13px; color: #1565C0;">의미 기반 매칭으로 적합 팀 자동 추천</p>
+</div>
+</div>
+</div>
+<!-- Right Column (60%): UI Mockup Shape -->
+<div data-object="true" data-object-type="shape" style="position: absolute; left: 556px; top: 170px; width: 648px; height: 498px; z-index: 1; background-color: rgb(255, 255, 255); border: 2px solid rgb(201, 168, 76); border-radius: 20px; box-shadow: rgba(201, 168, 76, 0.1) 0px 10px 30px; transform: none !important;" id="fabric-obj-5-1775719147665"></div>
+<!-- Right Column (60%): UI Mockup Content -->
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 580px; top: 190px; width: 600px; height: 450px; z-index: 10; transform: none !important; cursor: text; outline: none; caret-color: rgb(0, 0, 0); user-select: text;" id="fabric-obj-6-1775719147665" contenteditable="true">
+<div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #FFF8E7; padding-bottom: 10px; margin-bottom: 15px;">
+<p style="font-size: 20px; font-weight: 700; color: #3E2723; margin: 0;"><i class="fas fa-desktop" style="color: #C9A84C; margin-right: 10px;"></i>실제 매칭 UI 구현결과</p>
+<div style="background: #E8F5E9; color: #2E7D32; font-size: 12px; font-weight: 700; padding: 4px 10px; border-radius: 12px;"><i class="fas fa-bolt"></i> 실시간 밀리초 단위 정렬</div>
+</div>
+<!-- Search Bar Mockup -->
+<div style="background: #F5F5F5; border-radius: 30px; padding: 12px 20px; display: flex; align-items: center; margin-bottom: 20px; border: 1px solid #E0E0E0;">
+<i class="fas fa-search" style="color: #9E9E9E; margin-right: 15px; font-size: 18px;"></i>
+<p style="margin: 0; font-size: 15px; color: #333; font-weight: 700;">Spring Boot, Java 백엔드 개발자</p>
+<div style="margin-left: auto; background: #C9A84C; color: #FFF; font-size: 12px; font-weight: 700; padding: 6px 12px; border-radius: 16px;">AI 검색</div>
+</div>
+<!-- Result Cards -->
+<div style="display: flex; flex-direction: column; gap: 15px; margin-bottom: 20px;">
+<!-- Card 1: High Match -->
+<div style="border: 2px solid #0071e3; border-radius: 12px; padding: 18px; position: relative; background: #F8FBFF; overflow: hidden; box-shadow: 0 4px 12px rgba(0,113,227,0.1);">
+<div style="position: absolute; top: 0; right: 0; background: linear-gradient(135deg, #0071e3, #4facfe); color: white; font-size: 14px; padding: 6px 20px; border-bottom-left-radius: 12px; font-weight: 700; box-shadow: -2px 2px 8px rgba(0,0,0,0.1);">
+<i class="fas fa-fire"></i> 87% 일치
+                </div>
+<div style="display: flex; gap: 8px; margin-bottom: 8px;">
+<span style="background: #E0F7FA; color: #1565C0; font-size: 11px; padding: 3px 8px; border-radius: 6px; font-weight: 700;">Backend</span>
+<span style="background: #FFF3E0; color: #00838F; font-size: 11px; padding: 3px 8px; border-radius: 6px; font-weight: 700;">Spring</span>
+</div>
+<p style="margin: 0 0 6px 0; font-size: 18px; font-weight: 700; color: #333;">백엔드 코어 설계하실 분 찾습니다</p>
+<p style="margin: 0; font-size: 14px; color: #666; line-height: 1.4;">JPA와 Spring Boot 기반으로 대용량 트래픽 처리를 경험해보고 싶은 팀원을 모십니다. 현재 기획 완료 상태입니다.</p></div>
+</div>
+<!-- Code Snippet -->
+<div style="background: #282c34; border-radius: 12px; padding: 15px 20px; border: 1px solid rgba(255,255,255,0.1);">
+<div style="display: flex; justify-content: space-between; margin-bottom: 8px; border-bottom: 1px solid #444; padding-bottom: 5px;">
+<p style="margin: 0; font-size: 12px; color: #ABB2BF; font-weight: 700;">backend/routers/ai.py</p>
+<p style="margin: 0; font-size: 12px; color: #C9A84C; font-weight: 700;"><i class="fas fa-magic"></i> 핵심 매칭 로직</p>
+</div>
+<p style="margin: 0; font-family: 'SF Mono', 'JetBrains Mono', monospace; font-size: 13px; line-height: 1.5; color: #ABB2BF;">
+<span style="color: #7F848E;"># 1. FAISS 코사인 유사도 검색 (k=전체 벡터 수)</span><br>
+<span style="color: #E5C07B;">D</span>, <span style="color: #E5C07B;">I</span> = _index.<span style="color: #61AFEF;">search</span>(query_embedding, k)<br>
+<br>
+<span style="color: #7F848E;"># 2. -1~1 코사인 유사도를 0~100 정수 점수로 정규화</span><br>
+<span style="color: #E5C07B;">score</span> = <span style="color: #56B6C2;">max</span>(<span style="color: #D19A66;">0</span>, <span style="color: #56B6C2;">min</span>(<span style="color: #D19A66;">100</span>, <span style="color: #56B6C2;">round</span>(<span style="color: #56B6C2;">max</span>(<span style="color: #D19A66;">0.0</span>, <span style="color: #56B6C2;">float</span>(sim)) * <span style="color: #D19A66;">100</span>)))
+            </p>
+</div>
+</div>
+</div>
+
+</body></html>

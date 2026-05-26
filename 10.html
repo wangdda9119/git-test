@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html lang="ko" data-theme="light" style=""><head>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700;900&amp;family=Playfair+Display:ital,wght@0,700;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+<style>
+    body { margin: 0; padding: 0; overflow: hidden; background-color: #FFF8E7; }
+</style>
+</head>
+<body style="user-select: none;">
+<div class="slide-container" style="position: relative; width: 1280px; height: 720px; overflow: hidden; background-color: #FFF8E7; font-family: 'Noto Sans KR', sans-serif;">
+<!-- Decorative Background Image Top Left -->
+<div data-object="true" data-object-type="image" style="position: absolute; left: -50px; top: -50px; width: 300px; height: 300px; z-index: 1; opacity: 0.1; transform: rotate(15deg);" id="fabric-obj-0-1775719639762">
+<img alt="Golden Petal Decoration" src="https://page.gensparksite.com/slides_images/dae8bd8100a126aa9ba19372eb93b072.webp" style="width: 100%; height: 100%; object-fit: cover; border-radius: 150px;" data-height-listener-added="true">
+</div>
+<!-- Decorative Background Image Bottom Right -->
+<div data-object="true" data-object-type="image" style="position: absolute; left: 1080px; top: 480px; width: 250px; height: 250px; z-index: 1; opacity: 0.1; transform: rotate(-30deg);" id="fabric-obj-1-1775719639763">
+<img alt="Golden Petal Decoration" src="https://page.gensparksite.com/slides_images/dae8bd8100a126aa9ba19372eb93b072.webp" style="width: 100%; height: 100%; object-fit: cover; border-radius: 125px;" data-height-listener-added="true">
+</div>
+<!-- Slide Title -->
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 80px; top: 40px; width: 920px; height: 110px; z-index: 10; cursor: text; outline: none; caret-color: rgb(0, 0, 0); user-select: text;" id="fabric-obj-2-1775719639763" contenteditable="true">
+<p style="font-family: 'Playfair Display', serif; font-size: 20px; color: #C8952A; margin: 0; font-weight: 700; letter-spacing: 2px;">TECHNICAL DETAILS &amp; HIGHLIGHTS</p>
+<p style="font-size: 42px; color: #3E2723; margin: 8px 0 0 0; font-weight: 700;">
+  
+    <!--StartFragment-->Engineering Highlights<!--EndFragment-->
+  
+
+</p>
+</div>
+<!-- Card 1: SSE Shape -->
+<div data-object="true" data-object-type="shape" style="position: absolute; left: 80px; top: 150px; width: 540px; height: 245px; z-index: 1; background-color: #FFFFFF; border: 2px solid #E0E0E0; border-radius: 20px; box-shadow: 0 10px 30px rgba(62,39,35,0.05);" id="fabric-obj-3-1775719639763"></div>
+<!-- Card 1: SSE Textbox -->
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 105px; top: 170px; width: 490px; height: 190px; z-index: 10;" id="fabric-obj-4-1775719639763">
+<div style="display: flex; align-items: center; margin-bottom: 12px; border-bottom: 1px solid #FFF8E7; padding-bottom: 8px;">
+<div style="width: 36px; height: 36px; background: linear-gradient(135deg, #F4D03F, #C8952A); border-radius: 10px; display: flex; justify-content: center; align-items: center; margin-right: 12px; box-shadow: 0 4px 10px rgba(201,168,76,0.3);">
+<i class="fas fa-bolt" style="color: #FFFFFF; font-size: 18px;"></i>
+</div>
+<p style="margin: 0; font-size: 20px; font-weight: 800; color: #3E2723;">SSE 스트리밍 파이프라인</p>
+</div>
+<p style="margin: 0 0 10px 0; font-size: 13px; color: #555555; line-height: 1.35;">
+            EventSourceResponse와 OpenAI stream을 연동하고, 프론트에서 ReadableStream으로 실시간 수신하여 마크다운 파싱까지 이어지는 풀스택 파이프라인 직접 구현
+        </p>
+<div style="background: #282c34; border-radius: 10px; padding: 10px 14px; border: 1px solid rgba(255,255,255,0.1);">
+<p style="margin: 0; font-family: 'SF Mono', 'JetBrains Mono', monospace; font-size: 12px; line-height: 1.45; color: #ABB2BF;">
+<span style="color: #C678DD;">const</span> { value, done } = <span style="color: #C678DD;">await</span> reader.<span style="color: #61AFEF;">read</span>();<br>
+<span style="color: #C678DD;">const</span> chunk = decoder.<span style="color: #61AFEF;">decode</span>(value, { stream: <span style="color: #D19A66;">true</span> });<br>
+<span style="color: #7F848E;">// v-html 렌더링에 실시간 append</span>
+</p>
+</div>
+</div>
+<!-- Card 2: Lazy Load Shape -->
+<div data-object="true" data-object-type="shape" style="position: absolute; left: 660px; top: 150px; width: 540px; height: 245px; z-index: 1; background-color: #FFFFFF; border: 2px solid #E0E0E0; border-radius: 20px; box-shadow: 0 10px 30px rgba(62,39,35,0.05);" id="fabric-obj-5-1775719639763"></div>
+<!-- Card 2: Lazy Load Textbox -->
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 685px; top: 170px; width: 490px; height: 190px; z-index: 10;" id="fabric-obj-6-1775719639763">
+<div style="display: flex; align-items: center; margin-bottom: 12px; border-bottom: 1px solid #FFF8E7; padding-bottom: 8px;">
+<div style="width: 36px; height: 36px; background: linear-gradient(135deg, #1E88E5, #0D47A1); border-radius: 10px; display: flex; justify-content: center; align-items: center; margin-right: 12px; box-shadow: 0 4px 10px rgba(30,136,229,0.3);">
+<i class="fas fa-box-open" style="color: #FFFFFF; font-size: 18px;"></i>
+</div>
+<p style="margin: 0; font-size: 20px; font-weight: 800; color: #3E2723;">defineAsyncComponent 레이지 로딩</p>
+</div>
+<p style="margin: 0 0 10px 0; font-size: 13px; color: #555555; line-height: 1.35;">
+            무거운 해커톤 상세 페이지의 7개 탭 컴포넌트를 모두 코드 스플리팅하여 번들 사이즈를 줄이고 초기 로딩 성능 최적화 (라우터 동적 임포트 병행)
+        </p>
+<div style="background: #282c34; border-radius: 10px; padding: 10px 14px; border: 1px solid rgba(255,255,255,0.1);">
+<p style="margin: 0; font-family: 'SF Mono', 'JetBrains Mono', monospace; font-size: 12px; line-height: 1.45; color: #ABB2BF;">
+<span style="color: #C678DD;">const</span> TabTeam = <span style="color: #61AFEF;">defineAsyncComponent</span>(<br>
+                &nbsp;&nbsp;() =&gt; <span style="color: #C678DD;">import</span>(<span style="color: #98C379;">'@/components/TabTeam.vue'</span>)<br>
+                );
+            </p>
+</div>
+</div>
+<!-- Card 3: Self-Ping Shape -->
+<div data-object="true" data-object-type="shape" style="position: absolute; left: 80px; top: 435px; width: 544px; height: 249px; z-index: 1; background-color: #FFFFFF; border: 2px solid #E0E0E0; border-radius: 20px; box-shadow: 0 10px 30px rgba(62,39,35,0.05);" id="fabric-obj-7-1775719639763"></div>
+<!-- Card 3: Self-Ping Textbox -->
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 105px; top: 455px; width: 490px; height: 195px; z-index: 10;" id="fabric-obj-8-1775719639763">
+<div style="display: flex; align-items: center; margin-bottom: 12px; border-bottom: 1px solid #FFF8E7; padding-bottom: 8px;">
+<div style="width: 36px; height: 36px; background: linear-gradient(135deg, #43A047, #1B5E20); border-radius: 10px; display: flex; justify-content: center; align-items: center; margin-right: 12px; box-shadow: 0 4px 10px rgba(67,160,71,0.3);">
+<i class="fas fa-sync-alt" style="color: #FFFFFF; font-size: 18px;"></i>
+</div>
+<p style="margin: 0; font-size: 20px; font-weight: 800; color: #3E2723;">Render 슬립 방지 셀프핑</p>
+</div>
+<p style="margin: 0 0 10px 0; font-size: 13px; color: #555555; line-height: 1.35;">
+            Render 무료 플랜의 15분 미활동 슬립 현상을 막기 위해, 백엔드 startup 이벤트에서 14분 간격으로 자신을 호출하는 백그라운드 스레드 구현
+        </p>
+<div style="background: #282c34; border-radius: 10px; padding: 10px 14px; border: 1px solid rgba(255,255,255,0.1);">
+<p style="margin: 0; font-family: 'SF Mono', 'JetBrains Mono', monospace; font-size: 12px; line-height: 1.4; color: #ABB2BF;">
+<span style="color: #C678DD;">import</span> threading<br>
+<br>
+                threading.<span style="color: #E5C07B;">Thread</span>(<br>
+                &nbsp;&nbsp;target=_self_ping, daemon=<span style="color: #D19A66;">True</span><br>
+                ).<span style="color: #61AFEF;">start</span>()
+            </p>
+</div>
+</div>
+<!-- Card 4: TypeScript Shape -->
+<div data-object="true" data-object-type="shape" style="position: absolute; left: 660px; top: 435px; width: 540px; height: 245px; z-index: 1; background-color: #FFFFFF; border: 2px solid #E0E0E0; border-radius: 20px; box-shadow: 0 10px 30px rgba(62,39,35,0.05);" id="fabric-obj-9-1775719639763"></div>
+<!-- Card 4: TypeScript Textbox -->
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 685px; top: 455px; width: 490px; height: 195px; z-index: 10;" id="fabric-obj-10-1775719639763">
+<div style="display: flex; align-items: center; margin-bottom: 12px; border-bottom: 1px solid #FFF8E7; padding-bottom: 8px;">
+<div style="width: 36px; height: 36px; background: linear-gradient(135deg, #8E24AA, #4A148C); border-radius: 10px; display: flex; justify-content: center; align-items: center; margin-right: 12px; box-shadow: 0 4px 10px rgba(142,36,170,0.3);">
+<i class="fas fa-shield-alt" style="color: #FFFFFF; font-size: 18px;"></i>
+</div>
+<p style="margin: 0; font-size: 20px; font-weight: 800; color: #3E2723;">TypeScript + Pinia 상태 관리</p>
+</div>
+<p style="margin: 0 0 10px 0; font-size: 13px; color: #555555; line-height: 1.35;">
+            전면 TypeScript 적용으로 Pydantic 스키마와 1:1 타입 매칭 확보. Pinia의 Composition API 스타일 스토어 3개 운용으로 안정적인 클라이언트 상태 관리
+        </p>
+<div style="background: #282c34; border-radius: 10px; padding: 10px 14px; border: 1px solid rgba(255,255,255,0.1);">
+<p style="margin: 0; font-family: 'SF Mono', 'JetBrains Mono', monospace; font-size: 12px; line-height: 1.45; color: #ABB2BF;">
+<span style="color: #C678DD;">export</span> <span style="color: #C678DD;">const</span> useTeamStore = <span style="color: #61AFEF;">defineStore</span>(<span style="color: #98C379;">'teams'</span>, () =&gt; {<br>
+                &nbsp;&nbsp;<span style="color: #C678DD;">const</span> teams = <span style="color: #61AFEF;">ref</span>&lt;<span style="color: #E5C07B;">Team</span>[]&gt;([]);<br>
+                &nbsp;&nbsp;<span style="color: #C678DD;">return</span> { teams };<br>
+                });
+            </p>
+</div>
+</div>
+</div>
+
+</body></html>
